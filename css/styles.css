@@ -1,0 +1,31 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.card img,
+.card h3{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.cards{
+  list-style: none;
+}
+.card-team{
+    max-width: 270px;
+    text-align: center;
+}
+.card-project{
+    max-width: 370px;
+    text-align: left;
+}
+.card-body{
+    background-color: white;
+    padding: 1em;
+}
+.card-body-project{
+    border-top: none;
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+}
