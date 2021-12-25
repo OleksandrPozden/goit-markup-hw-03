@@ -11,14 +11,6 @@
   --primary-white-color-rgb: 255,255,255;
   --secondary-white-color: #E5E5E5;
   --tertiary-white-color: #F5F4FA;
-
-  --light-gray-color: #F5F4FA;
-  --dark-bg-color: #2F303A;
-  --nav-bg-color: #ECECEC;
-  --h1-font-size: 44px;
-  --h2-font-size: 36px;
-  --button-font-size: 16px;
-  --default-font-size: 14px;
 }
 body{
   padding: 0;
@@ -69,7 +61,7 @@ body{
   color: var(--primary-color);
 }
 .btn{
-  font-style: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
