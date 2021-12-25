@@ -1,172 +1,172 @@
-:root{
-  --primary-color: #2196F3;
-  --primary-color-darker: #188CE8;
+:root {
+  --primary-color: #2196f3;
+  --primary-color-darker: #188ce8;
 
   --primary-dark-color: #212121;
   --secondary-dark-color: #757575;
-  --tertiary-dark-color: #2F303A;
+  --tertiary-dark-color: #2f303a;
   --full-dark: #000;
 
   --primary-white-color: #fff;
-  --primary-white-color-rgb: 255,255,255;
-  --secondary-white-color: #E5E5E5;
-  --tertiary-white-color: #F5F4FA;
+  --primary-white-color-rgb: 255, 255, 255;
+  --secondary-white-color: #e5e5e5;
+  --tertiary-white-color: #f5f4fa;
 }
-body{
+body {
   padding: 0;
   margin: 0;
   color: var(--primary-dark-color);
   background-color: var(--secondary-white-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.17;
 }
-.header{
-  border-bottom: solid 1px #ECECEC;
+.header {
+  border-bottom: solid 1px #ececec;
   background-color: var(--primary-white-color);
 }
-.logo{
+.logo {
   color: var(--primary-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
 }
-.logo-dark > span{
+.logo-dark > span {
   color: var(--full-dark);
 }
-.logo-white > span{
+.logo-white > span {
   color: var(--primary-white-color);
 }
-.list{
+.list {
   list-style: none;
 }
-.nav-bar{
+.nav-bar {
   font-weight: 500;
 }
-.link{
+.link {
   text-decoration: none;
   color: inherit;
 }
-.link.active{
+.link.active {
   color: var(--primary-color);
 }
-.contact{
+.contact {
   color: var(--secondary-dark-color);
 }
 .link:hover,
 .link:focus,
 .contact:hover,
-.contact:focus{
+.contact:focus {
   color: var(--primary-color);
 }
-.btn{
-  font-family: 'Roboto', sans-serif;
+.btn {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
   cursor: pointer;
 }
 
-.hero{
+.hero {
   background-color: var(--tertiary-dark-color);
   color: var(--primary-white-color);
   text-align: center;
 }
-.hero-header{
+.hero-header {
   margin: 0;
   color: var(--white-color);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
 }
-.hero-button{
+.hero-button {
   background-color: var(--primary-color);
   color: inherit;
   font-weight: 700;
   line-height: 1.875;
 }
-.hero-button:hover{
+.hero-button:hover {
   background-color: var(--primary-color-darker);
 }
 
-.feature-description{
+.feature-description {
   color: var(--secondary-dark-color);
   line-height: 1.7;
 }
 
-.section-header{
+.section-header {
   font-size: 36px;
   text-align: center;
   line-height: 1.17;
 }
 
-section.team{
+section.team {
   background-color: var(--tertiary-white-color);
 }
 
-.card-image{
-    margin: 0;
-    padding: 0;
-    display: block;
+.card-image {
+  margin: 0;
+  padding: 0;
+  display: block;
 }
-.team .card-item{
-    max-width: 270px;
-    text-align: center;
+.team .card-item {
+  max-width: 270px;
+  text-align: center;
 }
-.projects .card-item{
-    max-width: 370px;
-    text-align: left;
+.projects .card-item {
+  max-width: 370px;
+  text-align: left;
 }
-.card-body{
-    background-color: var(--primary-white-color);
+.card-body {
+  background-color: var(--primary-white-color);
 }
-.card-header{
+.card-header {
   margin: 0;
   font-size: 16px;
   font-weight: 500;
 }
-.card-description{
+.card-description {
   color: var(--secondary-dark-color);
   font-size: 16px;
 }
-.card-header{
+.card-header {
   font-size: 16px;
 }
-.projects .card-body{
-  --border-color: #EEEEEE;
+.projects .card-body {
+  --border-color: #eeeeee;
   border-top: none;
   border-right: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
 }
-.projects .card-header{
+.projects .card-header {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
 }
-.projects .card-description{
+.projects .card-description {
   line-height: 1.875;
 }
 
-.address{
+.address {
   color: var(--primary-white-color);
 }
-.info-footer .contact{
-  color: rgb(var(--primary-white-color-rgb),0.6);
+.info-footer .contact {
+  color: rgb(var(--primary-white-color-rgb), 0.6);
 }
-.info-footer .link{
+.info-footer .link {
   line-height: 1.7;
 }
-.filter-item{
+.filter-item {
   background-color: var(--tertiary-white-color);
 }
 .filter-item.active,
 .filter-item:hover,
-.filter-item:focus{
+.filter-item:focus {
   background-color: var(--primary-color);
   color: var(--primary-white-color);
 }
-.footer{
+.footer {
   background-color: var(--tertiary-dark-color);
 }
