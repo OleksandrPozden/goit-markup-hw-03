@@ -79,6 +79,7 @@ body {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  text-transform: uppercase;
 }
 .hero-button {
   background-color: var(--primary-color);
@@ -91,6 +92,7 @@ body {
 }
 .feature-header{
   font-size: inherit;
+  text-transform: uppercase;
 }
 .feature-description {
   color: var(--secondary-dark-color);
