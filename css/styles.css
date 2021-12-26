@@ -152,7 +152,7 @@ section.team {
 .address {
   color: var(--primary-white-color);
 }
-.info-footer .contact {
+.footer-contact {
   color: rgb(var(--primary-white-color-rgb), 0.6);
 }
 .info-footer .link {
